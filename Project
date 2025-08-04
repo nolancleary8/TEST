@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coltivare – Products</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 30px;
+        }
+        h1, h2 {
+            color: #205522;
+            font-family: 'Georgia', serif;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .important {
+            font-style: italic;
+            font-size: 18px;
+            color: #cc0000;
+        }
+        ul, ol {
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Coltivare – Our Products</h1>
+
+    <p><span class="highlight">Welcome to Coltivare!</span> We proudly offer sustainable tools and equipment for modern farmers. <span class="important">Innovation meets tradition</span> in our lineup.</p>
+
+    <img src="your-image.jpg" alt="Sample product" width="400">
+    <!-- Replace with a real image file in your repo -->
+
+    <h2>Top Products</h2>
+    <ol>
+        <li>Soil Smart Sensor Kit</li>
+        <li>Water-Efficient Drip Irrigation System</li>
+        <li>Eco-Friendly Crop Sprayer</li>
+    </ol>
+
+    <h2>Why Choose Us?</h2>
+    <ul>
+        <li>Affordable pricing</li>
+        <li>Durable build quality</li>
+        <li>Field-tested for reliability</li>
+    </ul>
+
+    <p>Visit our <a href="https://modernfarmer.com/" target="_blank">partner site</a> for more farming resources.</p>
+
+    <p><a href="mailto:fakeemail@coltivare.com">Contact me</a> with any questions.</p>
+
+    <p><a href="brochure.pdf" download>Download our latest product brochure</a></p>
+    <!-- Include a real file in your GitHub repo -->
+
+    <div class="footer">
+        <p>Last modified: <span id="lastModified"></span></p>
+        <script>
+            document.getElementById("lastModified").textContent = document.lastModified;
+        </script>
+    </div>
+
+</body>
+</html>
